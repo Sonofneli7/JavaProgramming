@@ -21,7 +21,7 @@ public class Lottery {
 		int guessDigit1 = lottery / 10;
 		int guessDigit2 = lottery % 10;
 		
-		System.out.println(" The lottery numer is " + lottery);
+		System.out.println(" The lottery number is " + lottery);
 		
 		// check the guess
 		if (guess == lottery)
@@ -41,3 +41,4 @@ public class Lottery {
 	}
 
 }
+
